@@ -6,6 +6,7 @@
             <a href="/mini_sistema/app/sobre.php">Sobre</a>
             <a href="/mini_sistema/app/proposta.php">Proposta</a>
             <a href="/mini_sistema/app/noticias.php">Noticias</a>
+            <a href="/mini_sistema/app/anime.php">Anime</a>
             <a href="/mini_sistema/app/personagens.php">Personagens</a>
             <a href="/mini_sistema/login/cadastra.php">Cadastrar-se</a>
             <!-- <a href="/mini_sistema/app/create.php">Cadastrar Personagem</a> -->
