@@ -87,13 +87,12 @@ require_once __DIR__ . '/../login/verifica_user.php';
     <section id="5">
         <article>
             <h2>5. Goku Black e a Filosofia do Tokusatsu</h2>
-            <img src="/mini_sistema/includes/assets/black.png" alt="black" width="250" height="auto">
             <p>A criação do vilão Goku Black baseou-se em clichês tradicionais da televisão japonesa e em paradoxos temporais:</p>
             <ul>
                 <li><strong>A Inspiração em Heróis Sombrios:</strong> Toriyama revelou ter se inspirado nas séries de <em>Tokusatsu</em> da sua infância (como <em>Ultraman</em> e <em>Kamen Rider</em>), onde era comum a aparição de cópias malignas do herói principal (como o "Impostor Ultraman" ou "Kamen Rider Sombrio").</li>
                 <li><strong>O Paradoxo do Destino:</strong> A história cria um ciclo temporal fechado (Paradoxo Bootstrap): Zamasu só decide roubar o corpo de Goku após ver o poder do Saiyajin na TV e enfrentá-lo por causa dos distúrbios temporais que o próprio Goku Black causou no futuro.</li>
             </ul>
-            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aViSYrPUZf0?si=C8rB81Lzn1W7Evb6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </article>
     </section>
 
@@ -105,6 +104,7 @@ require_once __DIR__ . '/../login/verifica_user.php';
                 <li><strong>Conceito de Mushin (無心):</strong> Significa "mente vazia" ou "mente sem mente". Nas artes marciais reais, é o estado em que o praticante não gasta tempo pensando no ataque ou na defesa. O tempo de resposta sináptica entre o cérebro enviar o comando e o músculo responder faz o lutador perder milissegundos preciosos.</li>
                 <li><strong>A Explicação de Whis:</strong> Desde os primeiros episódios de <em>Super</em>, Whis tenta ensinar Goku e Vegeta a fazerem cada parte do corpo reagir e julgar os movimentos de forma independente. Goku alcança a forma porque consegue esvaziar suas emoções e pensamentos, enquanto Vegeta falha por focar demais no pensamento tático e no orgulho (o que mais tarde o leva a desenvolver o <em>Ego Superior</em> no mangá).</li>
             </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DkraSCNxeX4?si=o4AYI5EHPdWBOYii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <a style="color: goldenrod;" href="https://www.kanzenshuu.com/translations/">Link - Kanzenshuu - Traduções de Guias e Databooks</a>
         </article>
     </section>
@@ -112,12 +112,12 @@ require_once __DIR__ . '/../login/verifica_user.php';
     <section id="7">
         <article>
             <h2>7. Broly: A Reconstrução Completa de um Vilão Não-Cânon</h2>
-            <img src="/mini_sistema/includes/assets/new.png" alt="new" width="250" height="auto">
             <p>Broly era um dos personagens mais populares da franquia, mas não existia na história oficial até o filme de 2018:</p>
             <ul>
                 <li><strong>O Broly de 1993:</strong> Criado pelo roteirista Takao Koyama para os filmes de DBZ, ele não tinha participação de Toriyama. Sua motivação original era frequentemente criticada por ser fútil (ele odiava Goku porque Goku chorava muito no berço ao lado do seu).</li>
                 <li><strong>A Mudança Recomendada pelo Editor:</strong> Vendo que o personagem ainda gerava milhões em vendas de videogames e brinquedos no Ocidente, o editor de Toriyama sugeriu trazê-lo de volta. Toriyama assistiu aos filmes antigos, manteve o visual imponente, mas reescreveu completamente a personalidade do personagem: transformou Broly em um jovem dócil, pacífico e vitimado pelos abusos do pai (Paragus), cujo poder incontrolável é uma maldição e não uma escolha.</li>
             </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7mHQRipWV2o?si=Ks5TLtfLUGVoKxKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <a style="color: goldenrod;" href="https://dragon-ball-official.com/">Link - Dragon Ball Official Site - Portal do Filme Broly</a>
         </article>
     </section>

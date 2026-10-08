@@ -20,6 +20,7 @@ require_once __DIR__ . '/../login/verifica_user.php';
         <article>
             <h2>O Retorno do Anime com Dragon Ball Super: Beerus e Estrutura de Remake</h2>
             <p>A Toei Animation oficializou o projeto Dragon Ball Super: Beerus, marcando o retorno da série animada para a televisão. Em vez de apenas dar continuidade imediata, a produtora optou por reformular os arcos iniciais do anime com acabamento visual modernizado, ritmos de episódios aprimorados e falas re-gravadas. Esse projeto reestrutura as sagas do Deus da Destruição Bills e a Ressurreição de 'F', criando uma base técnica mais consistente para que, na sequência, o estúdio possa adaptar com alta fidelidade os arcos do mangá inéditos na TV.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MCGTWRen488?si=I29GLej2SsxhD3iL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </article>
     </section>
 
