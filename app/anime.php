@@ -15,6 +15,9 @@ require_once __DIR__ . '/../login/verifica_user.php';
 
 <body>
     <?php include '../includes/header.php'; ?>
+    <div class="titulo">
+        <h1 style="text-align: center;">Curiosidades</h1>
+    </div>
     <ul>
         <li>
             <a href="#1">Anime vs. Mangá</a>
