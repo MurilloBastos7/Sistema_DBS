@@ -1,75 +1,37 @@
-# 🐉 Documentação — Como eu fiz o DBSStats
+# 🐉 Documentação — Como eu fiz o DBSStats passo a passo
 
-## 1. Começando o projeto
+## 1. Escolhi o tema e planejei o site
 
-Primeiro eu pensei no tema que eu queria usar no site. Como eu gosto de Dragon Ball, decidi fazer o projeto sobre **Dragon Ball Super**.
+Primeiro, escolhi fazer um site sobre Dragon Ball Super, porque queria reunir informações do anime em um só lugar. Pensei em colocar notícias, personagens e páginas explicando a proposta do projeto.
 
-A ideia era fazer um site com notícias, personagens e algumas informações sobre o anime.
+## 2. Organizei as pastas e os arquivos
 
-Depois disso, comecei a criar as pastas e os arquivos que eu iria usar no projeto.
+Depois, separei o projeto em pastas para ficar mais fácil de encontrar cada parte. Criei a pasta `app` para as páginas principais, `includes` para partes que se repetem, `login` para cadastro e acesso, `database` para a conexão com o banco e `style` para o CSS.
 
-## 2. Criando as páginas
+## 3. Montei as páginas com HTML
 
-Depois comecei a fazer as páginas usando **PHP e HTML**.
+Usei HTML para criar a estrutura das páginas, como títulos, parágrafos, links, listas, imagens e formulários. Fiz a página inicial e depois organizei as páginas de notícias, personagens, anime, sobre e proposta.
 
-Fiz a página inicial e depois fui criando as outras páginas, como:
+## 4. Usei PHP para deixar o site funcional
 
-- Notícias;
-- Personagens;
-- Anime;
-- Sobre;
-- Proposta.
+Com PHP, incluí o cabeçalho e o rodapé nas páginas, evitando repetir o mesmo código várias vezes. Também usei arquivos PHP para trabalhar com o cadastro, o login, a saída da conta e algumas informações exibidas no site.
 
-Também fiz o cabeçalho e o rodapé para não precisar ficar repetindo o mesmo código em todas as páginas.
+## 5. Criei o visual com CSS
 
-## 3. Fazendo o visual
+Depois, trabalhei no arquivo `style.css`. Escolhi cores inspiradas em Dragon Ball, como laranja, azul e tons escuros. Ajustei fontes, tamanhos, espaçamentos, menus e outros detalhes para deixar as páginas mais organizadas e com a identidade do anime.
 
-Depois que as páginas já estavam funcionando, comecei a mexer no **CSS**.
+## 6. Adicionei imagens e conteúdos
 
-Eu quis deixar o site com a cara de Dragon Ball, então usei cores como azul, laranja e preto, além de imagens e alguns efeitos.
+Coloquei imagens de personagens e uma imagem de Esfera do Dragão como ícone do site. Também preenchi as páginas com textos sobre o anime e conteúdos relacionados às notícias e aos personagens.
 
-Também coloquei animações para deixar o site um pouco mais bonito e diferente.
+## 7. Preparei a conexão com o banco de dados
 
-## 4. Colocando os conteúdos
+Criei o arquivo `database/connect.php` para centralizar a conexão com o PostgreSQL usando PDO. Essa parte permite que os arquivos que precisam acessar dados utilizem a conexão. Para funcionar em outro computador, é necessário configurar o banco e conferir os dados de acesso.
 
-Depois fui colocando os conteúdos nas páginas.
+## 8. Fiz os testes e organizei o projeto
 
-Adicionei as notícias de Dragon Ball Super, informações dos personagens e imagens.
+Por fim, fui abrindo as páginas no navegador para conferir o visual, os links e os caminhos entre os arquivos. Quando encontrei detalhes que precisavam de ajuste, fiz alterações no código e no CSS.
 
-Também coloquei um favicon de uma Esfera do Dragão para combinar com o tema do site.
+## Conclusão
 
-## 5. Fazendo o banco de dados
-
-Depois comecei a trabalhar com o **PostgreSQL**.
-
-Criei o banco de dados e fiz a conexão com o PHP usando **PDO**.
-
-Essa parte serviu para eu conseguir trabalhar com os dados do sistema de uma forma mais organizada.
-
-## 6. Fazendo o login e cadastro
-
-Depois eu fiz a parte de usuários.
-
-Criei as páginas de **cadastro, login e logout**.
-
-Também coloquei a verificação do usuário e usei sessões para conseguir manter o usuário conectado enquanto ele estivesse usando o site.
-
-## 7. Testando o site
-
-Depois que terminei as principais partes, comecei a testar tudo.
-
-Fui entrando nas páginas, testando os links, imagens, cadastro, login e banco de dados para ver se estava tudo funcionando.
-
-Quando aparecia algum erro, eu voltava no código e tentava corrigir.
-
-## 8. Finalizando
-
-Por último, organizei os arquivos e dei uma última revisada no site.
-
-Também coloquei o projeto no **GitHub** para deixar o código salvo e conseguir acompanhar as alterações que eu fiz.
-
-No final, consegui fazer um site sobre Dragon Ball Super com notícias, personagens, informações do anime e sistema de usuários.
-
----
-
-**Feito por mim, Murillo Bastos. 🐉**
+Esse projeto me ajudou a praticar HTML, CSS, PHP e banco de dados. Também aprendi a separar o código em arquivos diferentes e a organizar melhor um site com várias páginas. Ainda existem pontos que podem ser corrigidos e melhorados, mas o DBSStats foi uma forma de colocar em prática o que estou aprendendo.

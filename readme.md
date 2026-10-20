@@ -1,144 +1,54 @@
 # 🐉 DBSStats — Universo Dragon Ball Super
 
-## 📖 Sobre o meu projeto
+## Sobre o projeto
 
-Eu, **Murillo Cena**, criei o **DBSStats** como um projeto sobre o universo de **Dragon Ball Super**.
+Eu, Murillo Cena, desenvolvi o **DBSStats**, um site sobre o universo de **Dragon Ball Super**. A ideia é reunir informações sobre o anime em um só lugar, facilitando o acesso a notícias, personagens e outros conteúdos.
 
-Minha ideia foi criar um site onde eu pudesse reunir diferentes conteúdos sobre Dragon Ball, como **notícias, personagens e informações sobre o anime**, tudo organizado em um só lugar.
+Também usei o projeto para praticar o que estou aprendendo em Desenvolvimento de Sistemas, principalmente PHP, HTML, CSS e banco de dados.
 
-Eu também aproveitei o projeto para colocar em prática vários conteúdos que estou aprendendo em **Desenvolvimento de Sistemas**, principalmente PHP, HTML, CSS e banco de dados.
+## O que tem no site?
 
-## 🌐 O que eu coloquei no site?
+- **Página inicial:** apresenta o projeto.
+- **Notícias:** reúne conteúdos e novidades sobre Dragon Ball Super.
+- **Personagens:** mostra personagens, transformações e descrições.
+- **Anime:** apresenta informações relacionadas à série.
+- **Sobre e Proposta:** explicam a ideia e o objetivo da plataforma.
+- **Cadastro e Login:** páginas para criar uma conta e entrar no sistema.
+- **Sair:** encerra a sessão do usuário e mostra uma mensagem de despedida.
 
-Durante o desenvolvimento, eu criei diferentes páginas para organizar o conteúdo do meu sistema.
+## Tecnologias utilizadas
 
-No meu projeto, eu coloquei:
+- **HTML:** organiza os elementos e o conteúdo das páginas.
+- **CSS:** cuida das cores, fontes, espaçamentos e aparência do site.
+- **PHP:** monta páginas, organiza partes reutilizáveis e processa algumas ações do sistema.
+- **PostgreSQL e PDO:** utilizados na conexão com o banco de dados nas partes que precisam guardar ou consultar informações.
+- **JavaScript:** usado, por exemplo, no botão que leva a página de volta ao topo.
+- **Imagens:** ajudam a identificar personagens e combinar com o tema do anime.
 
-- 🏠 **Página inicial** — onde eu apresento o meu site.
-- 📰 **Notícias** — onde eu mostro notícias e novidades sobre Dragon Ball.
-- 👤 **Personagens** — onde eu apresento alguns personagens do universo Dragon Ball.
-- 📺 **Anime** — onde eu coloquei informações relacionadas ao anime.
-- 📖 **Sobre** — onde eu explico um pouco mais sobre o meu projeto.
-- 🎯 **Proposta** — onde eu apresento a ideia do sistema.
-- 🔐 **Cadastro e Login** — onde eu criei o sistema para o usuário criar uma conta e entrar no site.
-- 🚪 **Logout** — onde eu permito que o usuário saia da conta.
+## Como o projeto está organizado?
 
-## 💻 Tecnologias que eu usei
+- `index.php` — página inicial.
+- `app/` — páginas de notícias, personagens, anime, sobre e outras funções.
+- `includes/` — partes reutilizadas, como cabeçalho, rodapé e funções.
+- `includes/assets/` — imagens usadas no site.
+- `login/` — arquivos relacionados a cadastro, login e saída da conta.
+- `database/` — arquivo de conexão com o banco de dados.
+- `style/style.css` — estilos visuais do site.
+- `documentacao.md` — explicação do desenvolvimento passo a passo.
 
-Para desenvolver o meu projeto, eu utilizei:
+## Como executar
 
-- **PHP** — usei para criar as páginas dinâmicas e desenvolver as funções do sistema.
-- **HTML** — usei para criar a estrutura das páginas.
-- **CSS** — usei para estilizar o site e criar o visual inspirado em Dragon Ball.
-- **PostgreSQL** — usei para armazenar os dados do sistema.
-- **PDO** — usei para fazer a conexão entre o PHP e o banco de dados.
-- **Git e GitHub** — usei para organizar e versionar o meu projeto.
+1. Instale e abra um ambiente local que execute PHP, como XAMPP, e configure o servidor web.
+2. Coloque a pasta do projeto no diretório servido pelo ambiente. Se mantiver os caminhos atuais, a pasta deve ficar acessível como `/mini_sistema`.
+3. Configure o PostgreSQL e ajuste os dados de conexão no arquivo `database/connect.php` para corresponder ao seu ambiente.
+4. Crie e configure as tabelas necessárias para as funções que utilizam o banco de dados.
+5. Inicie o servidor web e acesse `http://localhost/mini_sistema/` no navegador.
 
-## 🎨 Visual do meu site
+**Importante:** o projeto depende da configuração correta do banco de dados. Os dados de conexão que estão no código são específicos do ambiente em que foi desenvolvido e podem precisar ser alterados.
 
-Eu quis deixar o visual do meu site inspirado em **Dragon Ball Super**.
+## Objetivo
 
-Para isso, eu utilizei cores e elementos que lembram o anime, como:
+Com esse projeto, pratiquei a criação de páginas web, a organização de arquivos, a estilização com CSS e o uso de PHP com banco de dados. Ainda é um projeto em desenvolvimento e pode receber melhorias.
 
-- 🔵 Azul
-- 🟠 Laranja
-- 🟡 Dourado
-- ⚫ Fundo escuro
-- ✨ Efeitos de brilho e energia
-- 🐉 Elementos inspirados nas Esferas do Dragão
-
-Eu também coloquei algumas animações utilizando CSS para deixar o site mais interessante e com uma aparência mais dinâmica.
-
-## 📁 Como eu organizei o projeto
-
-Eu organizei os arquivos do projeto em diferentes pastas para facilitar a manutenção e deixar tudo mais organizado.
-
-```text
-Sistema_DBS/
-│
-├── app/
-│   ├── anime.php
-│   ├── noticias.php
-│   ├── personagens.php
-│   ├── proposta.php
-│   ├── sobre.php
-│   └── ...
-│
-├── database/
-│   └── arquivos relacionados ao banco
-│
-├── includes/
-│   ├── header.php
-│   ├── footer.php
-│   └── functions.php
-│
-├── login/
-│   ├── login.php
-│   ├── cadastro.php
-│   ├── cadastra.php
-│   ├── logout.php
-│   └── verifica_user.php
-│
-├── style/
-│   └── style.css
-│
-├── index.php
-└── README.md
-```
-
-Eu fiz essa divisão para conseguir encontrar os arquivos com mais facilidade e evitar deixar todo o código misturado.
-
-## 🗄️ Banco de dados
-
-Eu também utilizei um **banco de dados PostgreSQL** no meu projeto.
-
-Eu usei o banco principalmente para armazenar informações utilizadas pelo sistema, como dados dos usuários e outras informações relacionadas ao projeto.
-
-Para fazer a conexão entre o PHP e o banco, eu utilizei **PDO**.
-
-## 🔐 Sistema de usuários
-
-Uma das partes que eu desenvolvi foi o sistema de usuários.
-
-Eu criei funções para:
-
-- Fazer cadastro;
-- Fazer login;
-- Verificar o usuário;
-- Utilizar sessões;
-- Fazer logout;
-- Controlar o acesso do usuário.
-
-Essa parte foi importante para eu entender melhor como funciona um sistema de autenticação utilizando PHP.
-
-## 📚 O que eu aprendi fazendo o projeto
-
-Durante o desenvolvimento do DBSStats, eu consegui colocar em prática vários conteúdos que estou aprendendo no curso.
-
-Eu pratiquei principalmente:
-
-- Criação de páginas com HTML;
-- Estilização com CSS;
-- Programação em PHP;
-- Conexão com banco de dados;
-- Utilização de PDO;
-- Criação de formulários;
-- Sistema de login e cadastro;
-- Utilização de sessões;
-- Organização de arquivos;
-- Criação de páginas dinâmicas;
-- Utilização do Git e GitHub.
-
-Além disso, eu percebi que a organização dos arquivos é muito importante quando o projeto começa a ficar maior.
-
-## 🎯 Meu objetivo com o projeto
-
-Meu principal objetivo foi criar um projeto sobre um tema que eu gosto, que é **Dragon Ball**, enquanto eu praticava programação.
-
-Eu também quis fazer algo mais completo do que apenas uma página HTML. Por isso, eu criei um pequeno sistema com **notícias, personagens, informações sobre o anime e sistema de usuários**.
-
-Pretendo continuar melhorando o projeto conforme eu aprender novas tecnologias e novos conceitos de programação.
-
-**Desenvolvido por mim, Murillo Cena. 🐉**
-
-**2º ano do Ensino Médio — Desenvolvimento de Sistemas**
+---
+Desenvolvido por **Murillo Cena**.
