@@ -1,8 +1,8 @@
 <?php 
 $host = '192.168.10.27';
-$dbname = "escola";
-$user = "escola";
-$pass = "escola";
+$dbname = "dragon";
+$user = "dragon";
+$pass = "1234";
 try {
     $conexao = new PDO(
         "pgsql:host=$host;dbname=$dbname",
