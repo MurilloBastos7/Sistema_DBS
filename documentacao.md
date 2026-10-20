@@ -35,3 +35,4 @@ Por fim, fui abrindo as páginas no navegador para conferir o visual, os links e
 ## Conclusão
 
 Esse projeto me ajudou a praticar HTML, CSS, PHP e banco de dados. Também aprendi a separar o código em arquivos diferentes e a organizar melhor um site com várias páginas. Ainda existem pontos que podem ser corrigidos e melhorados, mas o DBSStats foi uma forma de colocar em prática o que estou aprendendo.
+'
